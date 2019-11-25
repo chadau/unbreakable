@@ -24,3 +24,21 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(assets/fonts/Gotham-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url(assets/fonts/Gotham-Book.otf);
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}

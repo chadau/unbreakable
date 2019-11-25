@@ -1,0 +1,13 @@
+ion-input {
+    font-family: 'Gotham';
+    border: 2px solid #4DCFE0;
+    border-radius: 10px;
+    --placeholder-color: #E7E7E7;
+    font-size: 20px;
+    height: 51px;
+    width: 251px;
+    &::placeholder {
+        font-family: 'Gotham';
+        font-size: 20px;
+    }
+}
